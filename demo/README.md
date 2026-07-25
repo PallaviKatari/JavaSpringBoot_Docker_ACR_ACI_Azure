@@ -1,4 +1,5 @@
 # Step 1: Create Resource Group
+az login
 az group create --name rg-kataripallavi-0973 --location eastus
 
 # Step 2: Create Azure Container Registry (ACR)
